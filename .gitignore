@@ -1,5 +1,11 @@
 .streamlit/secrets.toml
 
+# Binaries
+bin/
+
+# User data
+data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -131,6 +137,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+pyvenv.cfg
+
 
 # Spyder project settings
 .spyderproject
